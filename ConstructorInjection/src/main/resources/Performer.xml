@@ -14,4 +14,13 @@ Therefore it is called bean object.                -->
 
 </bean>
 
+<bean id="twinkle" class="com.zensar.spring.poems.TwinkleTwinkle"></bean>
+<bean id="katrina kaif" class="com.zensar.spring.performers.PoeticJuggler">
+
+<constructor-arg value="10"></constructor-arg> 
+<constructor-arg ref="twinkle"></constructor-arg> 
+
+</bean>
+
+
 </beans>
